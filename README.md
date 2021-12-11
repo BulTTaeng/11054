@@ -1,1 +1,47 @@
-# 11054
+
+# "11054"
+
+made by Jaehyeok Choi
+
+## Welcome to Jaehyeok's github!
+
+## What is the problem?
+
+![button](https://github.com/Choi-JaeHyeok-21500749/11054/blob/main/11054_pro.JPG)
+
+## What Algorithm should I use?
+
+dynamic programming
+
+## What was the key point and the hard part?
+
+There is a almost same problem that I solved. Explain about it is like below.
+
+![button](https://github.com/Choi-JaeHyeok-21500749/11054/blob/main/11054_explain.JPG)
+
+Additional comments.
+
+I think there should be better solution rather than finding the length of maximum increasing sequence and add 1. (Like I solve 11053)
+
+That takes O(N^2), but this takes only O(NlogN).
+
+The reason why we subtract 1 to the ans is that the number is both used in increasing sequence and decreasing sequence.
+
+Someone might have question that that number might not be used.
+For example, 
+
+1 5 2 1 4 3 4 5 2 1
+
+Let's assume third 2 is the Sk in the problem. We might have 1 2 1 as answer.
+
+However, We are looking for the longest sequence. It means Sk should be always used in increasing sequence and decreasing sequence. 
+
+So, Sk will be always in both sequence.
+
+
+
+## Where can I get more help, if I need it?
+
+You can contact me through email, which is 21500749@handong.edu.
+Thank you for visiting this github!
+
